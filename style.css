@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h3 {
+    margin-top: 10px;
+
+}
+
+.wrap {
+    /* display: flex; */
+    /* transition: 1s; */
+
+    img {
+        margin-top: 50px;
+        width: 300px;
+        border: 3px solid red;
+        transition: 1.3s;
+
+
+    }
+
+    .wrap__1:hover {
+        transform: rotate(360deg);
+    }
+    .wrap__2:hover {
+        scale: 150%;
+    }
+    .wrap__3:hover {
+        transform: skew(250deg);
+    }
+    .wrap__4:hover {
+        translate: 70px 57px;
+    }
+}
